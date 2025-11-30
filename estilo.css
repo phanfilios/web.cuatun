@@ -1,9 +1,9 @@
-/* FUENTE BASE */
+/* FUENTE PRINCIPAL */
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
-    background: radial-gradient(circle at top, #1a1a1f, #0c0c0e 60%);
-    color: white;
+    background: radial-gradient(circle at top, #1b1f27, #0a0c10 70%);
+    color: #ffffff;
     text-align: center;
 }
 
@@ -13,66 +13,62 @@ header {
 }
 
 header h1 {
-    font-size: 2.8em;
+    font-size: 2.8rem;
     background: linear-gradient(90deg, #8f7bff, #00d0ff);
     -webkit-background-clip: text;
     color: transparent;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .subtitle {
-    font-size: 1.1em;
     opacity: 0.7;
 }
 
-/* HERO */
+/* HERO SECTION */
 .hero {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 20px;
-    margin-top: 30px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 650px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
 }
 
-/* CARDS */
+/* CARD SECTION */
 .cards {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    margin-top: 50px;
-    padding-bottom: 60px;
+    flex-wrap: wrap;
+    padding: 40px 0;
 }
 
 .card {
-    width: 280px;
+    width: 260px;
+    padding: 20px;
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    padding: 25px;
-    border-radius: 18px;
-    transition: 0.25s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: 0.25s ease;
     backdrop-filter: blur(8px);
 }
 
 .card:hover {
-    transform: translateY(-6px);
-    border-color: #8f7bff;
-    box-shadow: 0 0 15px rgba(140, 100, 255, 0.4);
+    transform: translateY(-8px);
+    box-shadow: 0 0 18px rgba(130, 90, 255, 0.4);
+    border-color: #9a80ff;
 }
 
 .card h3 {
-    color: #a382ff;
+    color: #b59fff;
     margin-bottom: 10px;
 }
 
 /* FOOTER */
 footer {
-    margin-top: 50px;
+    opacity: 0.6;
     padding: 25px;
     border-top: 1px solid rgba(255,255,255,0.08);
-    font-size: 0.9em;
-    opacity: 0.6;
+    margin-top: 20px;
 }
